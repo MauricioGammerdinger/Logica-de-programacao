@@ -1,0 +1,39 @@
+var valorDoPedido = Number(prompt('Total gasto?'));
+var valorAPagar = valorDoPedido;
+
+var meioDePagamento = prompt('Qual sera a forma de pagamento?');
+
+var estado = prompt('Digite sua UF');
+
+if (meioDePagamento === 'dinheiro') {
+    valorAPagar = valorDoPedido - (valorDoPedido * 0.03)
+    desconto = valorDoPedido * 0.03
+    //console.log(valorDoPedido * 0.03 + ' de desconto')
+}
+
+if (estado === 'rj') {
+    valorAPagar = valorAPagar + (valorAPagar * 0.20)
+    imposto = valorAPagar * 0.20
+    frete = 0
+    //console.log(valorDoPedido/5 + ' ICMS')
+}
+
+else {
+    valorAPagar = valorAPagar + (valorAPagar * 0.12 + 20)
+    imposto = valorAPagar * 0.12
+    frete = 20
+    
+    //console.log((valorDoPedido * 0.12) + 20 + ' ICMS')
+
+    //console.log(20 + ' reais de frete')
+}
+
+
+
+console.log(`
+    Valor da compra:${valorDoPedido}
+    Imposto:${imposto}
+    Frete: ${frete}
+    ____________________
+    Valor a pagar: ${valorAPagar}
+`)
