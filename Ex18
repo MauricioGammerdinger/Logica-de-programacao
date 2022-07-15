@@ -1,0 +1,7 @@
+var num1 = Number(prompt('Digite um número'))
+var m = 1 
+
+for (var num1; m < 11; m++){
+console.log(num1 * m)
+}
+m++
