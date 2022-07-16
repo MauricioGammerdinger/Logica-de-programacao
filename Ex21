@@ -1,0 +1,14 @@
+/* Crie um algoritmo que informe o próximo ano bissexto, a partir do atual. Sabemos que, para um ano ser bissexto, deve corresponder aos seguintes critérios:
+	- ser múltiplo de 400; ou
+	- ser múltiplo de 4, exceto se for múltiplo de 100 e não de 400
+*/
+
+var ano = Number(prompt('Informe o ano'))
+
+for (var i = ano; ano <= 4000; ano++) {
+if( (ano%4==0 && ano%100!=0) | ano%400==0){
+    console.log(ano + ' : ' + 'bissexto')
+} else{
+    console.log(ano + ' : ' + 'Não bissexto')
+}
+}
