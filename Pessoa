@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Exercício Personagem </title>
+        <meta charset="UTF-8">
+    </head>
+
+    <link rel="stylesheet" href="./static/css/style.css">
+
+    <body>
+        <div id= "menu">
+            <ul>
+                
+                <li> <a href="#historia"> Historia </a> </li>
+                <li> <a href="#fato"> Fato </a> </li>
+                <li> <a href="#curiosidade"> Curiosidade </a> </li>
+                <li> <a href="#frase"> Frase </a> </li>
+                <li> <a href="#biografia"> Bio </a> </li>
+            
+            </ul>
+    
+    
+           </div>
+        <section>
+            <div class="listra">
+                <h1> Ticuliro Januário </h1>
+            </div>
+        </section>
+
+        <section>
+            <div id="historia" class="rainbow">
+                <img src="./decoracao-de-escritorio.png" alt="Perfil do personagem">
+                <h3> História </h3>
+                <p>
+                    Ticuliro é uma pessoa muito bondosa e gente fina. Nascido na Mesopotâmia no ano de 5346 a.C., Ticuliro já passou por muitas coisas em sua longa vida. Foi de grande inspiração para várias pessoas em todo o mundo com seus feitos incríveis. Recebeu vários prêmios e elogios de grandes celebridades, como Leonidas, Jesus, Einstein, e até mesmo Chronos, o Deus do Tempo.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div id="fato" class="listra">
+                <p> <strong> Fato mais marcante </strong> </p>
+                <p>
+                    O fato mais marcante na vida de Ticuliro foi em sua batalha contra Ednaldo Pereira, na tentativa de salvar a humanidade do controle maligno total. Foi uma intensa e longa batalha que tomou proporções imensas, quase destruindo todo o universo.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div id="curiosidade" class="rainbow">
+                <h3> Curiosidades </h3>
+                <p>
+                    Muitas pessoas falam sobre o Cavalo de Tróia, e como foi uma das armadilhas mais marcantes da época. Porém, poucos sabem que essa idéia veio, na verdade, da genial mentalidade de Ticuliro Januário. Ticuliro teve essa brilhante idéia depois de ver que toda aquela matança não levaria a nada. Em meio à guerra, ele teve uma reunião emergencial para compartilhar sua estratégia que daria um fim a todo o conflito em instantes.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div id="frase" class="listra">
+                <p> <strong > Frase de efeito </strong>   </p>
+                <p>
+                    "Alguém me disse, outro dia, que para sentir satisfação e alegria é necessário ser caridoso, me dá um reaaaaaallll, me dá um real ooooooo me da um real aí"
+                </p>
+                <div class="listra">
+            
+                </div>
+                <h6> Ticuliro Januário </h6>
+            </div>
+        </section>
+
+        <section>
+            <div id="biografia" class="rainbow">
+                <h3> Biografia </h3>
+                <p>
+                    Ticuliro Januário, nascido na Mesopotâmia, em 5346 a.C., foi o maior héroi que a humanidade já teve. Ele nos salvou inúmeras vezes em suas batalhas, com suas invenções, descobrimentos, e avanços na tecnologia, na ciência, entre tantas outras coisas. Ele já foi o mentor de grandes pessoas, como por exemplo, Sócrates, Hércules, Adão, Nikola Tesla e Ednaldo Pereira. Ele também foi o criador do nosso querido cachorro caramelo, que hoje anda pelas ruas mantendo a paz e protegendo as pessoas, como um guardião da humanidade. 
+                </p>
+            </div>
+
+            <div id="rodape" class="rodape">
+                <p>
+                    &copy; Copyright
+                    <a id="link-rodape" href="https://pt.wikipedia.org/wiki/Chicken_Little"target="_blank"> WIKIPEDIA </a>
+                 - TODOS OS DIREITOS RESERVADOS 
+
+                </p>
+
+            </div>
+
+        </section>
+
+    </body>
+
+</html>
